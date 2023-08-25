@@ -7,7 +7,6 @@
 <script>
 import PortfolioMain from './components/PortfolioMain.vue';
 export default {
-  name: 'app',
   components: {
     PortfolioMain
   }
