@@ -94,21 +94,21 @@
               <img class="project-img" src="../assets/coming-soon.png" alt="Image Coming Soon" height="90%" width="100%">
               <div class="project-description">
                 <h3 class="project-title">Project 1</h3>
-                <p class="fade-in">This is a description of a project</p>
+                <p class="fade-in">Coming Soon!</p>
               </div>
             </div>
             <div class="project">
               <img class="project-img" src="../assets/coming-soon.png" alt="Image Coming Soon" height="90%" width="100%">
               <div class="project-description">
                 <h3 class="project-title">Project 2</h3>
-                <p class="fade-in">This is a description of a project</p>
+                <p class="fade-in">Coming Soon!</p>
               </div>
             </div>
             <div class="project">
               <img class="project-img" src="../assets/coming-soon.png" alt="Image Coming Soon" height="90%" width="100%">
               <div class="project-description">
                 <h3 class="project-title">Project 3</h3>
-                <p class="fade-in">This is a description of a project</p>
+                <p class="fade-in">Coming Soon!</p>
               </div>
             </div>
           </div>
@@ -143,7 +143,7 @@
   </div>
   </template>
   <script>
-  // import emailjs from 'emailjs-com';
+ import emailjs from '@emailjs/browser';
   
   export default {
     name: 'PortfolioMain',
@@ -167,31 +167,31 @@
         }
         document.getElementById(tab).style.display = "block";
       },
-      // sendMail() {
+      sendMail() {
         
-      //   emailjs.init("syQxHKH-ihAPtbNZM");
-      //   console.log("We got past init");
-      //   var params = {
-      //       name: document.getElementById("name").value,
-      //       email: document.getElementById("email").value,
-      //       phone: document.getElementById("phone").value,
-      //       message: document.getElementById("message").value,
-      //   }
-      //   console.log(params);
+        emailjs.init("syQxHKH-ihAPtbNZM");
+        console.log("We got past init");
+        var params = {
+            name: document.getElementById("name").value,
+            email: document.getElementById("email").value,
+            phone: document.getElementById("phone").value,
+            message: document.getElementById("message").value,
+        }
+        console.log(params);
         
-      //   emailjs.send(this.serviceId, this.templateId, params)
-      //     .then((res) => {
-      //         document.getElementById("name").value = "";
-      //         document.getElementById("email").value = "";
-      //         document.getElementById("phone").value = "";
-      //         document.getElementById("message").value = "";
-      //         console.log(res);
-      //         alert("Your message was sent");
-      //         console.log("SOMETHING HAPPENED THE WAY WE WANTED IT TO");
-      //     })
-      //     .catch((err) => console.log(err));
+        emailjs.send(this.serviceId, this.templateId, params)
+          .then((res) => {
+              document.getElementById("name").value = "";
+              document.getElementById("email").value = "";
+              document.getElementById("phone").value = "";
+              document.getElementById("message").value = "";
+              console.log(res);
+              alert("Your message was sent");
+              console.log("SOMETHING HAPPENED THE WAY WE WANTED IT TO");
+          })
+          .catch((err) => console.log(err));
 
-      // }
+      }
     }
   }
   </script>
