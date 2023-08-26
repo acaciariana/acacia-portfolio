@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <PortfolioMain />
   </div>
 </template>
@@ -7,6 +7,7 @@
 <script>
 import PortfolioMain from './components/PortfolioMain.vue';
 export default {
+  name: 'app',
   components: {
     PortfolioMain
   }
