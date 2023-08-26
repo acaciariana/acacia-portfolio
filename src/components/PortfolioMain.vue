@@ -42,7 +42,7 @@
         </div>
         <div id="about" class="about">
           <div class="about-img">
-            <img class="profile-img" src="../assets/placeholder.png" alt="Cat" height="100%" width="100%">
+            <img class="profile-img" src="../assets/acacia-pic.jpeg" alt="Cat">
           </div>
           <div class="about-info">
             <div>
