@@ -6,12 +6,13 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "dev": "vue-cli-service dev"
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "core-js": "^3.8.3",
     "gh-pages": "^6.0.0",
-    "vue": "^3.2.13"
+    "vue": "^3.2.13",
+    "execa": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
