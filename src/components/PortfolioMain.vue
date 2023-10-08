@@ -125,7 +125,7 @@
               <span class="material-icons">dialpad</span>
               (619) 647-1002
             </h4>
-            <a href="https://github.com/acaciariana/acacia-kahananui-baker.github.io.git" target="_blank"><img src="../assets/github-icon.png" alt="GitHub Icon" height="20%" width="13%"></a>
+            <a href="https://github.com/acaciariana/acacia-portfolio" target="_blank"><img src="../assets/github-icon.png" alt="GitHub Icon" height="20%" width="13%"></a>
             <a href="https://www.linkedin.com/in/acacia-kahananui-baker" target="_blank"><img src="../assets/linkedin-icon.png" alt="LinkedIn Icon" height="20%" width="13%"></a>
           </div>
           <div class="footer-element-2">
