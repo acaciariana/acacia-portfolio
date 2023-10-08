@@ -91,10 +91,10 @@
           <h3 class="personal-projects-header">Personal Projects</h3>
           <div class="project-div">
             <div class="project">
-              <img class="project-img" src="../assets/coming-soon.png" alt="Image Coming Soon" height="90%" width="100%">
+              <a href="https://github.com/acaciariana/bedNbrekfast"><img class="project-img" src="../assets/bednbrekfast.png" alt="BedNBrekfast" height="90%" width="100%"></a>
               <div class="project-description">
-                <h3 class="project-title">Project 1</h3>
-                <p class="fade-in">Coming Soon!</p>
+                <h3 class="project-title">BedNBrekfast</h3>
+                <p class="fade-in">An Airbnb website replica, with functional booking system, user login, and ability to add locations to book!</p>
               </div>
             </div>
             <div class="project">
